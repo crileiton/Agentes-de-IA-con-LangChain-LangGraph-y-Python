@@ -5,7 +5,7 @@ from langchain_openai import AzureChatOpenAI
 
 llm = AzureChatOpenAI(
     azure_deployment="gpt-4o",
-    api_version="2024-08-01-preview",
+    api_version="2025-01-01-preview",
     temperature=0.7,
 )
 
